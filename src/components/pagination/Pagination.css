@@ -1,0 +1,7 @@
+.Pagination {
+  display: flex;
+  width: 40px;
+  background-color: #;
+  flex-direction: column;
+  justify-content: flex-end;
+}

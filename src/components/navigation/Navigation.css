@@ -1,0 +1,31 @@
+.Div {
+  position: fixed;
+  width: 100%;
+}
+header {
+  text-align: center;
+  height: 50px;
+  font-size: 18pt;
+  background-color: #444;
+  color:#FFF;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 5px 5px #CCC;
+  .Item {
+  height: 50px;
+  line-height: 50px;
+  width: 80px;
+  color: #fff;
+}
+.Item:hover {
+  background-color: #666;
+}
+}
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+

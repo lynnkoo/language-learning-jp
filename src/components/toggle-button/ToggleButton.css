@@ -1,0 +1,10 @@
+.ToggleButton, .ToggleButton button {
+  width: 40px;
+  height: 30px;
+  background-color: blue;
+}
+
+.ToggleButton.Checked button {
+  background-color: red;
+}
+

@@ -1,0 +1,62 @@
+.Selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+  width: 500px;
+
+  .Selected {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .Item {
+      cursor: pointer;
+      color: #333;
+      background-color: #CCC;
+      border: 1px solid #666;
+      border-radius: 3px;
+      padding: 4px 8px;
+      margin-right: 10px;
+    }
+  }
+
+  .List {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFF;
+    margin-top: 20px;
+
+    .Item, .Create {
+      cursor: pointer;
+      color: #333;
+      background-color: #FFF;
+      border: 1px solid #666;
+      border-radius: 15px;
+      padding: 0 8px;
+      margin-right: 10px;
+      height: 30px;
+      line-height: 30px;
+
+      &:hover {
+        background-color : #f6f6f6;
+      }
+    }
+
+    .Item {
+      &.Selected {
+        background-color: #CCC;
+        &:hover {
+          background-color : #f6f6f6;
+        }
+      }
+    }
+    .Create {
+      width: 30px;
+      padding: 0;
+      color: #666;
+      font-size: 24pt;
+    }
+  }
+}

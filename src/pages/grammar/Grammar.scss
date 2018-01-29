@@ -1,0 +1,92 @@
+.Grammar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  min-height: 600px;
+
+  .Operation {
+  }
+
+  .GrammarForm {
+    padding: 20px 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px #CCC;
+    background-color: #FFF;
+    z-index: 10;
+
+    .InputBlock {
+      &.Editor {
+        input {
+          background-color: none;
+          border: 1px solid #CCC;
+        }
+      }
+      input {
+        background-color: #FFF;
+        border: none;
+      }
+
+      .InputContent {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100%;
+
+        .TextInput {
+          width: 150px;
+        }
+
+        span {
+          align-self: flex-end;
+          color: #999;
+          padding: 5px 20px;
+          font-size: 18pt;
+        }
+      }
+    }
+  }
+  .Pagination {
+
+  }
+}
+
+/*.InputContent input {
+  width: 600px;
+  height: 30px;
+  border: 1px solid #CCC;
+  font-size:15pt;
+  margin-top: 20px;
+}
+.InputContent label {
+  color: #666;
+  font-size:15pt;
+  margin-top: 10px;
+}*/
+.InputBlock button {
+  color: #666;
+  background-color: #fff;
+  border: 1px solid #CCC;
+  width: 40px;
+  height: 28px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.InputBlock button:hover {
+  background-color: #f6f6f6;
+}
+.InputBlock .ToggleButton button {
+  color: #666;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #CCC;
+}
+.InputBlock .ToggleButton.Checked button {
+  color: #FFF;
+  margin: 0;
+  background-color: #666;
+}
+

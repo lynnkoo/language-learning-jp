@@ -1,0 +1,22 @@
+.DataList {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  box-shadow: 5px 5px #CCC;
+  background-color: #FFF;
+  z-index: 10;
+}
+.Row {
+  background-color: #FFF;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc
+}
+.Row:hover {
+  background-color: #ccc;
+}

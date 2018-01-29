@@ -1,0 +1,26 @@
+.InputBlock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 20px;
+
+  &.Editor {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+  }
+
+  .Title {
+    color: #666;
+    font-size: 16pt;
+  }
+
+  .Content {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Confirm {
+    display: flex;
+    justify-content: flex-start;
+  }
+}

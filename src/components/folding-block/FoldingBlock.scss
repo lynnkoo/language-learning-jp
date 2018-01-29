@@ -1,0 +1,29 @@
+.FoldingBlock {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #FFF;
+
+  min-height: 600px;
+  width: 1000px;
+
+  .Folded {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #FFF;
+    color: #999;
+    padding: 5px 20px;
+    border: 1px solid #CCC;
+
+    &:hover {
+      background-color:#CCC;
+    }
+  }
+  .Button {
+    padding: 5px 0;
+    &:hover {
+      background-color:#CCC;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.Operation {
+  padding-top: 10px;
+  display: flex;
+  width: 50px;
+  background-color: #666;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 5px 5px #CCC;
+}
+
+.Operation1 {
+  color: #fff;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+.Operation1:hover {
+  border-bottom: none;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999;
+  /*box-shadow: 5px 5px #CCC;*/
+}
+@media screen and (max-width: 1280px) {
+  .Operation1:hover {
+    width: 100%;
+    position: relative;
+    /*box-shadow: 0px 5px #CCC;*/
+    left: -0;
+  }
+}
